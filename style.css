@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+.bgcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 5rem;
+}
+.first-sec{
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+    margin: 0 auto;
+}
+p{
+    font-size: 15px;
+    color: hsl(303, 10%, 53%)
+}
+.ten h1{
+    color: hsl(300, 43%, 22%);
+    font-size: 40px;
+}
+.stars{
+    width: 540px;
+}
+.first, .second , .third{
+    display: flex;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    padding: 1rem;
+    width: 445px;
+    border-radius: 10px;
+}
+.second{
+    margin-left: 3rem;
+}
+.third{
+    margin-left: 6rem;
+}
+.icon{
+    padding: 0 2rem;
+}
+.p{
+    width: 350px;
+    line-height: 20px;
+}
+.stars p{
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+.secondsec{
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+    margin: 0 auto;
+}
+.f ,.s ,.th{
+    width: 350px;
+    height: 230px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.data{
+    display: flex;
+    align-items: center;
+    height: fit-content
+}
+.secondsec p{
+    line-height: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+.data p span{
+    color: hsl(333, 80%, 67%);
+}
+.f img , .s img, .th img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 1.4rem;
+}
+.s{
+    margin-top: 1rem;
+}
+.th{
+    margin-top: 2rem;
+}
+.f > p {
+    font-weight: normal;
+    width: 275px;
+}
+.th > p {
+    font-weight: normal;
+    width: 275px;
+}
+.s > p {
+    font-weight: normal;
+    width: 275px;
+}
+@media screen and (max-width:1215px) {
+    .first-sec{
+        width: auto;
+    }
+    .secondsec{
+        width: auto; 
+    }
+    .s{
+        margin: 1rem;
+    }
+    .container{
+        padding: 5rem 0;
+    }
+}
+@media screen and (max-width:1090px){
+    .first-sec{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .secondsec{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .first{
+        margin-top: 20px;
+    }
+    .s{
+        margin: 2rem 0 0 0;
+    }
+}
+@media screen and (max-width:560px) {
+    .second{
+        margin: 0;
+    }
+    .third{
+        margin: 0;
+    }
+    .stars{
+        width: auto;
+    }
+}
+@media screen and (max-width:470px) {
+    .first , .second , .third{
+        width: 325px;
+        flex-direction: column;
+    }
+    .second{
+        margin: 1rem 0;
+    }
+    .icon{
+        margin-bottom: 10px;
+    }
+    .ten h1 , .p{
+        text-align: center;
+    }
+    .p{
+        width: auto;
+    }
+    .f , .s , .th{
+        width: 90%;
+    }
+    .f > p , .s > p ,.th > p{
+        width: auto;
+    }
+}
+@media screen and (max-width:335px){
+    .first , .second , .third{
+        width: 90%;
+    }
+    .stars{
+        width: 90%;
+    }
+    .first{
+        margin: 20px auto auto auto;
+    }
+    .second{
+        margin: 1rem auto auto auto;
+    }
+    .third{
+        margin: auto;
+    }
+    
+}
+
+
